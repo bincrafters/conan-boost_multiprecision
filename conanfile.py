@@ -17,7 +17,7 @@ class BoostMultiprecisionConan(ConanFile):
                       "Boost.Lexical_Cast/1.64.0@bincrafters/testing", \
                       "Boost.Math/1.64.0@bincrafters/testing", \
                       "Boost.Mpl/1.64.0@bincrafters/testing", \
-                      "Boost.Predefe/1.64.0@bincrafters/testing", \
+                      "Boost.Predef/1.64.0@bincrafters/testing", \
                       "Boost.Random/1.64.0@bincrafters/testing", \
                       "Boost.Rational/1.64.0@bincrafters/testing", \
                       "Boost.Smart_Ptr/1.64.0@bincrafters/testing", \
