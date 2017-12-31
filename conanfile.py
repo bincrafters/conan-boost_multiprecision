@@ -7,7 +7,7 @@ from conans import ConanFile, tools
 class BoostMultiprecisionConan(ConanFile):
     name = "boost_multiprecision"
     version = "1.66.0"
-    url = "https://github.com/bincrafters/conan-boost-multiprecision"
+    url = "https://github.com/bincrafters/conan-boost_multiprecision"
 
     lib_short_names = ["multiprecision"]
     is_header_only = True
