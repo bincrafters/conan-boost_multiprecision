@@ -8,7 +8,8 @@ class BoostMultiprecisionConan(ConanFile):
     name = "boost_multiprecision"
     version = "1.66.0"
     url = "https://github.com/bincrafters/conan-boost_multiprecision"
-
+    author = "Bincrafters <bincrafters@gmail.com>"
+    exports = ["LICENSE.md"]
     lib_short_names = ["multiprecision"]
     is_header_only = True
 
