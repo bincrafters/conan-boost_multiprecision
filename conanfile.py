@@ -16,7 +16,6 @@ class BoostMultiprecisionConan(ConanFile):
         self.info.header_only()
 
 
-    # TODO: functional
     requires = (
         "boost_array/1.67.0@bincrafters/testing",
         "boost_assert/1.67.0@bincrafters/testing",
