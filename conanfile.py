@@ -8,6 +8,7 @@ base = python_requires("boost_base/1.68.0@bincrafters/testing")
 
 class BoostMultiprecisionConan(base.BoostBaseConan):
     name = "boost_multiprecision"
+    version = "1.68.0"
     url = "https://github.com/bincrafters/conan-boost_multiprecision"
     lib_short_names = ["multiprecision"]
     header_only_libs = ["multiprecision"]
